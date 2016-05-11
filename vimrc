@@ -1,19 +1,19 @@
 set nocompatible
 set nu                  "显示行号
 set tabstop=4           "tab长度四个空格
-set expandtab
+set expandtab           "tab转成space
 set autoindent
-set smartindent
+set smartindent         "继承上一行的缩进
 set wildmenu
 set ruler
-set showmatch
+set showmatch           "匹配括号
 syntax enable
 set encoding=utf8
 set smarttab
 set shiftwidth=4
 set splitright
-set hlsearch
-"set backspace=2         "退格键删除
-set mouse=a
+set hlsearch            "高亮搜索词            
+"set backspace=2        "退格键删除
+set mouse=a             "鼠标可以定位光标
 "colorscheme desert
 "set bg=dark
