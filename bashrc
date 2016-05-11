@@ -1,0 +1,6 @@
+alias hls='hadoop fs -ls'
+alias hcat='hadoop fs -cat'
+alias hgetmerge='hadoop fs -getmerge'
+alias hget='hadoop fs -get'
+alias hduh='hadoop fs -du'
+alias hrmr='hadoop fs -rm -r'
